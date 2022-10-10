@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mushroom shop</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>🍄 Mushroom shop</h1>
+
+    <!-- output list -->
+    <ul class="item-list">
+      
+    </ul>
+  </div>
+
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>Type:</label>
+        <select id="type">
+          <option value="Champignon">Champignon</option>
+          <option value="Shimeji">Shimeji</option>
+          <option value="Shiitake">Shiitake</option>
+          <option value="Portobello">Portobello</option>
+          <option value="Abrupta">Amanita Abrupta</option>
+          <option value="Muscaria">Mata-moscas</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Buyer:</label>
+        <input type="text" id="buyer">
+      </div>   
+      <div class="field">
+        <label>Use:</label>
+        <select id="use">
+          <option value="food">Food</option>
+          <option value="cience">Cience</option>
+          <option value="poison">Poison</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Amount</label>
+        <input type="number" id="amount">
+      </div>
+      <button>Add</button>
+    </form>
+
+    <a href="https://www.thenetninja.co.uk">The Net Ninja</a>
+  </footer>
+
+  <script type="module" src='./js/models/sandbox.js'></script>
+</body>
+</html>
